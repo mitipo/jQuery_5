@@ -1,1 +1,24 @@
 @charset "utf-8";
+ul,
+li {
+  list-style: none;
+}
+.faq {
+  margin: 20px 0;
+}
+.faq button{
+    width: 100%;
+    text-align: left;
+    padding: 7px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.cont{
+    padding: 10px;
+    background-color: #efefef;
+}
+.faq li > div{
+    display: none;
+}

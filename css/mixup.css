@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+.container,
+.mix-wrapper {
+  width: 80%;
+  margin: 50px auto;
+}
+.mix {
+  width: 20%;
+  margin: 20px 10px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  background-color: #ccc;
+  color: #fff;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.black {
+  background-color: black;
+}
+.green {
+  background-color: green;
+}
